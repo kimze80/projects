@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@font-face {
+  font-family: 'Genericons';
+  src: url('fonts/genericons-regular-webfont.woff')format('woff'),
+    url('./fonts/genericons-regular-webfont.eot')format('truetype');
+}
+
+.container {
+  margin: 50px auto;
+  width: 90%;
+}
+
+header h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.accordion {
+  background: #333;
+  width: 100%;
+  min-width: 800px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 200px;
+  font-size: 0;
+}
+
+.tab {
+  display: inline-block;
+  background-color: #444;
+  border-right: #333 solid 1px;
+  width: 80px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.tab:hover {
+  width: 450px;
+}
+
+.tab .content {
+  background: #fff;
+  width: 360px;
+  height: 200px;
+  margin-left: 80px;
+  position: relative;
+  padding: 50px 0 0 15px;
+}
+
+.tab .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
