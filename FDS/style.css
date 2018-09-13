@@ -27,3 +27,25 @@ html {
   left: 50%;
   transform: translate(-50%, -50%); */
 }
+
+.about {
+  text-align: center;
+  margin: 100px 70px;
+}
+
+.container {
+  background-image: url("verde.jpeg");
+  height: 15%;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.my-text {
+  position: absolute;
+  left: 0;
+
+  width: 100%;
+}
