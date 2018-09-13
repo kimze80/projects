@@ -1,15 +1,29 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
-
 }
 
 .back-image {
   background-image: url("fotoverde.jpeg");
-  height: 50%;
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
+}
+
+.texts {
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
