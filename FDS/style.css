@@ -1,51 +1,46 @@
-body,
-html {
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
 }
 
-.back-image {
-  background-image: url("fotoverde.jpeg");
-  height: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  /* overflow-y: hidden; */
-}
-
-.texts {
-  text-align: center;
-  text-transform: uppercase;
-
+body {
+  margin: 0;
   color: white;
-  position: absolute;
-  left: 0;
-  top: 30%;
-  width: 100%;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+}
+
+.showcase {
+  background-image: url("fotoverde.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* color: white; */
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  padding: 0 20px;
 }
 
 .about {
   text-align: center;
-  margin: 100px 70px;
+  padding: 150px 100px;
+  line-height: 1.6;
+  color: rgb(63, 63, 63);
+}
+
+.about h1 {
+  padding: 50px;
 }
 
 .container {
   background-image: url("verde.jpeg");
-  height: 15%;
-  position: relative;
-  text-align: center;
-  color: white;
+  background-position: center;
+  height: 200px;
+  /* color: white; */
   text-transform: uppercase;
   font-size: 36px;
-}
-
-.my-text {
-  position: absolute;
-  left: 0;
-
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
