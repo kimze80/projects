@@ -1,17 +1,17 @@
-let salario;
+// let salario;
 
 // salario = 1000;
 
-console.log(salario);
+// console.log(salario);
 
-let um = 10;
-let dois = 20;
-let tres = 50;
-let soma = um + dois;
+// let um = 10;
+// let dois = 20;
+// let tres = 50;
+// let soma = um + dois;
 
 // console.log(soma);
 
-let media = (um + dois + tres) / 3;
+// let media = (um + dois + tres) / 3;
 
 // console.log(media);
 
@@ -29,16 +29,16 @@ let media = (um + dois + tres) / 3;
 
 // console.log(mediaB);
 
-let perguntaA = prompt("qual a sua idade?");
+// let perguntaA = prompt("qual a sua idade?");
 
-if (perguntaA == 18) {
-  alert("voce pode dirigir!");
-  let perguntaB = prompt("vc tem carro?");
-  if (perguntaB == sim) {
-    alert("legal!");
-  }
-} else {
-  alert("vc nao pode dirigir");
-}
+// if (perguntaA == 18) {
+//   alert("voce pode dirigir!");
+//   let perguntaB = prompt("vc tem carro?");
+//   if (perguntaB == sim) {
+//     alert("legal!");
+//   }
+// } else {
+//   alert("vc nao pode dirigir");
+// }
 
-console.log(perguntaA);
+// console.log(perguntaA);
